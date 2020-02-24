@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Calories.MainPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Calories Counter">
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Text="Broccoli" TextColor="Green"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="207" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="2" Text="Add" TextColor="Black" BackgroundColor="LightGreen" CornerRadius="20" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Text="Black Olives" TextColor="Green"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="2" TextColor="Black"/>
+                <Button Grid.Row="1" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="cabbage" TextColor="Green"/>
+                <Label Grid.Row="2" Grid.Column="1" Text="227" TextColor="Black"/>
+                <Button Grid.Row="2" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="3" Grid.Column="0" Text="Carrot" TextColor="Green"/>
+                <Label Grid.Row="3" Grid.Column="1" Text="25" TextColor="Black"/>
+                <Button Grid.Row="3" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="4" Grid.Column="0" Text="Cherry Tomato" TextColor="Green"/>
+                <Label Grid.Row="4" Grid.Column="1" Text="20" TextColor="Black" />
+                <Button Grid.Row="4" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Text="Corn" TextColor="Green"/>
+                <Label Grid.Row="5" Grid.Column="1" Text="562" TextColor="Black"/>
+                <Button Grid.Row="5" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="6" Grid.Column="0" Text="Cucumber" TextColor="Green"/>
+                <Label Grid.Row="6" Grid.Column="1" Text="66" TextColor="Black"/>
+                <Button Grid.Row="6" Grid.Column="2" Text="Add" TextColor="Black" BackgroundColor="LightGreen" CornerRadius="20" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="7" Grid.Column="0" Text="Green onion" TextColor="Green"/>
+                <Label Grid.Row="7" Grid.Column="1" Text="5" TextColor="Black"/>
+                <Button Grid.Row="7" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="8" Grid.Column="0" Text="Mushrooms" TextColor="Green"/>
+                <Label Grid.Row="8" Grid.Column="1" Text="1" TextColor="Black"/>
+                <Button Grid.Row="8" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="9" Grid.Column="0" Text="Pepper" TextColor="Green"/>
+                <Label Grid.Row="9" Grid.Column="1" Text="20" TextColor="Black"/>
+                <Button Grid.Row="9" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+                <Label Grid.Row="10" Grid.Column="0" Text="Potato" TextColor="Green"/>
+                <Label Grid.Row="10" Grid.Column="1" Text="164" TextColor="Black"/>
+                <Button Grid.Row="10" Grid.Column="2" Text="Add" TextColor="Black" CornerRadius="20" BackgroundColor="LightGreen" Clicked="Button_Clicked_1"/>
+
+            </Grid>
+            <Button Text="Done" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Body Mass">
+        
+    </ContentPage>
+</TabbedPage>
